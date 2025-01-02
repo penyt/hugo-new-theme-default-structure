@@ -5,15 +5,58 @@ body {
   height: 100vh;
 }
 
-.sidebar {
-  width: 30%;
-  background-color: #f4f4f4;
-  overflow-y: auto;
-  border-right: 1px solid #ddd;
-  padding: 10px;
+p {
+  margin: 2px 0;
 }
+
+a {
+  display: inline-block;
+  margin: 2px;
+}
+
+ul {
+  margin: 0;
+  padding-left: 10px;
+}
+
+
+pre#content {
+  flex: 1;
+  padding: 20px;
+  margin: 0;
+  overflow-x: auto;
+  overflow-y: auto;
+  white-space: pre;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+
 
 .content {
   flex: 1;
   border: none;
 }
+
+
+.sidebar {
+  width: 20%;
+  background-color: #f4f4f4;
+  word-wrap: break-word;
+  word-break: break-all;
+  overflow-wrap: break-word;
+  overflow-y: auto;
+  border-right: 1px solid #ddd;
+  padding: 10px;
+  padding-left: 10px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding-left: 20px;
+  border-left: 2px solid #ddd;
+  margin: 0;
+}
+
+
+
